@@ -1,3 +1,97 @@
+html, #computer_board, #player_board, #commands {
+  background: linear-gradient(to bottom, #006e2e 0%, #006e2e 100%);
+  background: -webkit-linear-gradient(top, #006e2e 0%, #006e2e 100%); }
 
+body {
+  font-family: "Verdana", sans-serif;
+  font-weight: bold;
+  background: linear-gradient(to bottom, #006e2e 0%, #006e2e 100%);
+  background: -webkit-linear-gradient(top, #006e2e 0%, #006e2e 100%);
+  color: #fff; }
+
+input:disabled {
+  cursor: not-allowed; }
+
+.clearfix {
+  display: table; }
+
+.computer {
+  display: inline; }
+
+.game_score {
+  float: right; }
+
+.game_score p {
+  display: inline; }
+
+.computer {
+  margin-left: 215px; }
+
+.computer_cards, .player_cards {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px auto; }
+
+.computer_cards li, .player_cards li {
+  margin-right: 15px;
+  height: 150px;
+  width: 100px;
+  float: left; }
+
+.computer_cards li img, .player_cards li img {
+  max-width: 100%; }
+
+#player_board {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+.buttons {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto; }
+
+.buttons li {
+  float: left;
+  margin-right: 30px; }
+
+.buttons li input, .reset {
+  background: transparent;
+  color: #fff; }
+
+.buttons li input:focus, .reset:focus {
+  outline-style: none; }
+
+.pcomputer {
+  display: none; }
+
+.computer_score {
+  color: #F00; }
+
+.invisible {
+  display: none; }
+
+form {
+  margin-top: 10px; }
+
+.username {
+  float: left;
+  width: 82%; }
+
+.informations {
+  margin-top: 20px;
+  font-size: 20px; }
+
+.success {
+  color: #00ff00; }
+
+.fail {
+  color: #ff0000; }
+
+.win {
+  color: #ffcc00; }
+
+.tie {
+  color: #fff; }
 
 /*# sourceMappingURL=style.css.map */

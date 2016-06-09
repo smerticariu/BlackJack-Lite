@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
          <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-         <link href="style.css" rel="stylesheet" />
+         <link href="assets/css/style.css" rel="stylesheet" />
         <title>BlackJack</title>
     </head>
     <body>
@@ -29,6 +29,10 @@
                                 0
                             </p>
                             <input type="button" class="reset" value="Reset score" />
+                            <form>
+                                <input type="text" class="form-control username" placeholder="Username">
+                                <input type="button" class="btn btn-default ok" value="ok">
+                            </form>
                         </div>
                     </div>
                     <div class="col-md-12 col-sm-12 col-xs-12">
@@ -38,27 +42,28 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!--- COMMANDS --->
+        </div><!--- END COMPUTER'S BOARD --->
+        <!--- COMMAND BUTTONS --->
         <div id="commands">
             <div class="container text-center">
                 <div class="row">
                     <div class="col-md-12 col-xs-12 col-sm-12">
                         <ul class="buttons clearfix">
                             <li>
-                                <input type="button" class="hit" value="Start" />
+                                <input type="button" class="hit btn btn-success" value="Start" />
                             </li>
                             <li>
-                                <input type="button" class="stand" value="Stand" />
+                                <input type="button" class="stand btn btn-default" value="Stand" />
                             </li>
                             <li>
-                                <input type="button" class="surrender" value="Surrender" />
+                                <input type="button" class="surrender btn btn-danger" value="Surrender" />
                             </li>
                         </ul>
+                        <p class="informations"></p>
                     </div>
                 </div>
             </div>
-        </div>
+        </div><!--- END COMMAND BUTTONS --->
         <!--- PLAYER BOARD -->
         <div id="player_board">
             <div class="container text-center">

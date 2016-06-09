@@ -5,6 +5,8 @@ html, #computer_board, #player_board, #commands
 body
     font-family: 'Verdana', sans-serif
     font-weight: bold
+    background: linear-gradient(to bottom, #006e2e 0%,#006e2e 100%)
+    background: -webkit-linear-gradient(top, #006e2e 0%,#006e2e 100%)
     color: #fff
 
 input:disabled
@@ -23,7 +25,7 @@ input:disabled
     display: inline
 
 .computer
-    margin-left: 150px
+    margin-left: 215px
 
 .computer_cards, .player_cards
     list-style-type: none
@@ -65,3 +67,29 @@ input:disabled
 
 .computer_score
     color: #F00
+
+.invisible
+    display: none
+
+form
+    margin-top: 10px
+
+.username
+    float: left
+    width: 82%
+
+.informations
+    margin-top: 20px
+    font-size: 20px
+
+.success
+    color: #00ff00
+
+.fail
+    color: #ff0000
+
+.win
+    color: #ffcc00
+
+.tie
+    color: #fff
