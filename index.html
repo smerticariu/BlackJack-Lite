@@ -25,14 +25,10 @@
                             <p class="computer_score">
                                 0
                             </p>
-                            <p class="player_name">Player: </p><p class="player_score">
+                            <p class="player_name"></p><p class="player_score">
                                 0
                             </p>
-                            <input type="button" class="reset" value="Reset score" />
-                            <form>
-                                <input type="text" class="form-control username" placeholder="Username">
-                                <input type="button" class="btn btn-default ok" value="ok">
-                            </form>
+                            <input type="button" class="reset btn btn-primary" value="Reset score" />
                         </div>
                     </div>
                     <div class="col-md-12 col-sm-12 col-xs-12">
@@ -53,7 +49,7 @@
                                 <input type="button" class="hit btn btn-success" value="Start" />
                             </li>
                             <li>
-                                <input type="button" class="stand btn btn-default" value="Stand" />
+                                <input type="button" class="stand btn btn-primary" value="Stand" />
                             </li>
                             <li>
                                 <input type="button" class="surrender btn btn-danger" value="Surrender" />
@@ -64,6 +60,13 @@
                 </div>
             </div>
         </div><!--- END COMMAND BUTTONS --->
+        <div class=" enterName text-center">
+            <form>
+                <h4>Enter your username:</h4>
+                <input type="text" class="form-control username" placeholder="Username">
+                <input type="button" class="btn btn-default ok" value="ok">
+            </form>
+        </div>
         <!--- PLAYER BOARD -->
         <div id="player_board">
             <div class="container text-center">

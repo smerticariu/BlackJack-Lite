@@ -94,10 +94,20 @@ var blackjack = (function(){
     var $form = $('form');
     var $informations = $('.informations');
 
+    var $playerBoard  = $('#player_board');
+    var $commandsButtons = $('#commands');
+    var $computerBoard = $('#computer_board');
+
     //set username's player
     $('.ok').click(function(){
         $_playerName.html($username.val() + ": ");
         $form.slideUp('slow');
+
+        //display the game after the username is set
+
+        $playerBoard.css("display", "inherit");
+        $commandsButtons.css("display", "inherit");
+        $computerBoard.css("display", "inherit");
     });
 
     $_playerName.click(function(){

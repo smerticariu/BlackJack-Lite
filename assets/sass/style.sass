@@ -12,6 +12,9 @@ body
 input:disabled
     cursor: not-allowed
 
+#computer_board, #commands, #player_board
+    display: none
+
 .clearfix
     display: table
 
@@ -56,7 +59,6 @@ input:disabled
     margin-right: 30px
 
 .buttons li input, .reset
-    background: transparent
     color: #fff
 
 .buttons li input:focus, .reset:focus
@@ -73,6 +75,11 @@ input:disabled
 
 form
     margin-top: 10px
+
+.enterName
+    margin: 0 auto
+    width: 30%
+    display: inherit
 
 .username
     float: left
